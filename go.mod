@@ -1,4 +1,4 @@
-module ggrks
+module github.com/skikozou/ggrks
 
 go 1.23.4
 
