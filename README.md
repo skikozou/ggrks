@@ -6,7 +6,7 @@ go install -u "github.com/skikozou/ggrks"
 ```
 
 ## 2. Initial settings
-Please check [this](URL)
+Please check [this](https://github.com/skikozou/ggrks?tab=readme-ov-file#initial-settings)
 
 ## 3. Fun!
 
