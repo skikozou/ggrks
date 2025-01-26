@@ -71,7 +71,7 @@ func InitConfig() (*Config, error) {
 	for {
 		fmt.Printf("Google Custom Search Engine ID\n>")
 		fmt.Scan(&input)
-		if !(len(input) == 16) {
+		if !(len(input) == 17) {
 			PrintErr(fmt.Errorf("Invalid API Key"))
 			continue
 		} else {
