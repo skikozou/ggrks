@@ -2,7 +2,7 @@
 
 ## 1. Install
 ```
-go install "github.com/skikozou/ggrks"
+go install "github.com/skikozou/ggrks@latest"
 ```
 
 ## 2. Initial settings
