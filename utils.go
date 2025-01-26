@@ -98,7 +98,14 @@ func InitConfig() (*Config, error) {
 	}
 
 	var cfgIni string
-	cfgIni += ""
+	cfgIni += "GoogleSearchAPI = " + config.GoogleSearchAPI + "\n"
+	cfgIni += "SearchEngineID = " + config.SearchEngineID + "\n"
+	cfgIni += "MaxSearchResult = " + strconv.Itoa(config.MaxSearchResult) + "\n"
+
+	err = os.WriteFile(config.BaseDir+"config.ini", []byte(cfgIni), 0666)
+	if err != nil {
+		return nil, err
+	}
 
 	return &config, nil
 }
